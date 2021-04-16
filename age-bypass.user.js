@@ -2,8 +2,8 @@
 // @name            YouTube age-restriction bypass
 // @name:de         YouTube Altersrestrictionen-Bypass
 // @version         0.9.1
-// @description     View age restricted videos on YouTube without verification and login :)
-// @description:de  Schaue YouTube Videos mit Altersbeschränkungen ohne Anmeldung und ohne dein Alter zu bestätigen :)
+// @description     View age restricted videos on YouTube without verification.
+// @description:de  Schaue YouTube Videos mit Altersbeschränkungen ohne dein Alter zu bestätigen :)
 // @author          Dracc
 // @namespace       https://github.com/ata-star/yt-age-bypass/
 // @updateURL       https://github.com/ata-star/yt-age-bypass/raw/main/age-bypass.user.js
@@ -20,7 +20,7 @@
     var nativeParse = window.JSON.parse; // Backup the original parse function
     var nativeDefineProperty = getNativeDefineProperty(); // Backup the original defineProperty function to intercept setter & getter on the ytInitialPlayerResponse
     var wrappedPlayerResponse = null;
-    var unlockablePlayerStates = ["AGE_VERIFICATION_REQUIRED", "LOGIN_REQUIRED"];
+    var unlockablePlayerStates = ["AGE_VERIFICATION_REQUIRED"];
     var responseCache = {};
 
     // Just for compatibility: Backup original getter/setter for 'ytInitialPlayerResponse', defined by other extensions like AdBlock
