@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name            Simple YouTube Age Restriction Bypass
-// @name:de         Simple YouTube Age Restriction Bypass
-// @version         0.9
+// @name            YouTube age-restriction bypass
+// @name:de         YouTube Altersrestrictionen-Bypass
+// @version         0.9.1
 // @description     View age restricted videos on YouTube without verification and login :)
 // @description:de  Schaue YouTube Videos mit Altersbeschränkungen ohne Anmeldung und ohne dein Alter zu bestätigen :)
-// @author          ZerodyOne (https://github.com/zerodytrash)
-// @namespace       https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/
-// @updateURL       https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/raw/main/Simple-YouTube-Age-Restriction-Bypass.user.js
-// @downloadURL     https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/raw/main/Simple-YouTube-Age-Restriction-Bypass.user.js
-// @supportURL      https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/issues
+// @author          Dracc
+// @namespace       https://github.com/ata-star/yt-age-bypass/
+// @updateURL       https://github.com/ata-star/yt-age-bypass/raw/main/age-bypass.user.js
+// @downloadURL     https://github.com/ata-star/yt-age-bypass/raw/main/age-bypass.user.js
+// @supportURL      https://github.com/ata-star/yt-age-bypass/issues
 // @license         MIT
 // @match           https://www.youtube.com/*
 // @grant           none
